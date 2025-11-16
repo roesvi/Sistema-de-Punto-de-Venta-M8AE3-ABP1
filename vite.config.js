@@ -5,6 +5,12 @@ import postcssImport from 'postcss-import'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: './',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    
+  },
   plugins: [vue()],
   resolve: {
     alias: {
