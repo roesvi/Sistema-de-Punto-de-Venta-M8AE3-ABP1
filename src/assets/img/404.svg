@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#F3F4F6"/>
+  <path d="M200 100C155.8 100 120 135.8 120 180C120 224.2 155.8 260 200 260C244.2 260 280 224.2 280 180C280 135.8 244.2 100 200 100ZM200 240C166.9 240 140 213.1 140 180C140 146.9 166.9 120 200 120C233.1 120 260 146.9 260 180C260 213.1 233.1 240 200 240Z" fill="#6B7280"/>
+  <path d="M200 140C191.2 140 184 147.2 184 156C184 164.8 191.2 172 200 172C208.8 172 216 164.8 216 156C216 147.2 208.8 140 200 140Z" fill="#6B7280"/>
+  <path d="M200 200C194.5 200 190 204.5 190 210C190 215.5 194.5 220 200 220C205.5 220 210 215.5 210 210C210 204.5 205.5 200 200 200Z" fill="#6B7280"/>
+  <text x="50%" y="80" text-anchor="middle" font-family="Arial" font-size="80" font-weight="bold" fill="#4F46E5">404</text>
+  <text x="50%" y="280" text-anchor="middle" font-family="Arial" font-size="16" fill="#6B7280">Página no encontrada</text>
+</svg>
