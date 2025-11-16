@@ -28,7 +28,7 @@
     </div>
 
     <!-- Public Navigation -->
-    <nav v-if="!isPOSRoute" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <nav v-if="!isPOSRoute && !isLoginRoute" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="container">
         <router-link class="navbar-brand d-flex align-items-center" to="/">
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-journal-text me-2" viewBox="0 0 16 16">
@@ -69,7 +69,7 @@
               <router-link to="/contacto" class="nav-link" @click="closeNav">Contacto</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/pos" class="nav-link btn btn-outline-light ms-2" @click="closeNav">Acceder al POS</router-link>
+              <router-link to="/login" class="nav-link btn btn-outline-light ms-2" @click="closeNav">Iniciar sesión</router-link>
             </li>
           </ul>
         </div>
@@ -104,8 +104,11 @@ export default {
   computed: {
     ...mapState(useAppStore, ['notifications']),
     isPOSRoute() {
-      return this.$route?.path?.startsWith('/pos') || false;
-    }
+      return this.$route.path.startsWith('/pos');
+    },
+    isLoginRoute() {
+      return this.$route.path === '/login' || this.$route.path === '/auth/login';
+    },
   },
   methods: {
     ...mapActions(useAppStore, ['removeNotification']),
