@@ -30,7 +30,7 @@ Un sistema de Punto de Venta (POS) moderno y eficiente diseñado para pequeñas 
 ## 🖼️ Capturas de Pantalla
 
 ### Inicio de Sesión
-![Inicio de Sesión](/src/assets/img/inicio-sesion.png)
+![Inicio de Sesión](/src/assets/img/inicio_sesion.png)
 
 ### Panel de Control
 ![Panel de Control](/src/assets/img/reporte-ventas.png)
