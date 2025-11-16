@@ -1,0 +1,19 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F8F9FA"/>
+  
+  <!-- Magnifying glass -->
+  <circle cx="180" cy="120" r="80" stroke="#E9ECEF" stroke-width="8"/>
+  <path d="M260 200L320 260" stroke="#E9ECEF" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- 404 text -->
+  <text x="200" y="150" font-family="Arial" font-size="80" font-weight="bold" text-anchor="middle" fill="#E9ECEF">404</text>
+  
+  <!-- Sad face -->
+  <circle cx="150" cy="100" r="10" fill="#E9ECEF"/>
+  <circle cx="210" cy="100" r="10" fill="#E9ECEF"/>
+  <path d="M160 140C160 140 170 160 180 160C190 160 200 140 200 140" stroke="#E9ECEF" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Message -->
+  <text x="200" y="240" font-family="Arial" font-size="16" text-anchor="middle" fill="#6C757D">Página no encontrada</text>
+</svg>
