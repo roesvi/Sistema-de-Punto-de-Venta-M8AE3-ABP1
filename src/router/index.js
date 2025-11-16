@@ -18,11 +18,6 @@ const Reports = () => import('../views/pos/Reports.vue');
 const Users = () => import('../views/pos/Users.vue');
 const Settings = () => import('../views/pos/Settings.vue');
 
-// Blog Views
-const BiParaPymes = () => import('../views/blog/BiParaPymes.vue');
-const EstrategiasOptimizacion = () => import('../views/blog/EstrategiasOptimizacion.vue');
-const EvolucionPos = () => import('../views/blog/EvolucionPos.vue');
-const GuiaImplementacionPos = () => import('../views/blog/GuiaImplementacionPos.vue');
 
 const routes = [
   // Auth Routes
@@ -37,43 +32,6 @@ const routes = [
     }
   },
   
-  // Blog Routes
-  {
-    path: '/blog/bi-para-pymes',
-    name: 'BiParaPymes',
-    component: BiParaPymes,
-    meta: {
-      title: 'BI para PYMES | Blog',
-      description: 'Descubre cómo el Business Intelligence puede transformar tu negocio.'
-    }
-  },
-  {
-    path: '/blog/estrategias-optimizacion-inventario',
-    name: 'EstrategiasOptimizacion',
-    component: EstrategiasOptimizacion,
-    meta: {
-      title: 'Estrategias de Optimización de Inventario | Blog',
-      description: 'Mejora la gestión de tu inventario con estas estrategias probadas.'
-    }
-  },
-  {
-    path: '/blog/evolucion-pos-modernos',
-    name: 'EvolucionPos',
-    component: EvolucionPos,
-    meta: {
-      title: 'Evolución de los Sistemas POS Modernos | Blog',
-      description: 'Conoce la evolución de los sistemas de punto de venta y su impacto en los negocios.'
-    }
-  },
-  {
-    path: '/blog/guia-implementacion-pos',
-    name: 'GuiaImplementacionPos',
-    component: GuiaImplementacionPos,
-    meta: {
-      title: 'Guía de Implementación de POS | Blog',
-      description: 'Todo lo que necesitas saber para implementar un sistema POS exitosamente.'
-    }
-  },
   
   // Main App Routes
   {
